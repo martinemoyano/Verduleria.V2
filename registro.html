@@ -39,14 +39,20 @@
 
 
 
-<form id="formulario">
+<form id="form">
     <h1 class="h3 mb-3 fw-normal">Registro</h1>
+       <div class="ingreso-nombre">
+        <input class="form-control" type="text" id="NombreUsuario" placeholder="Ingrese un nombre" name="">
+        <small>Mensaje de error</small>
+       </div>
 
-        <input class="form-control" type="text" id="txtNombreUsuario" placeholder="Ingrese un nombre" name="">
+        <input class="form-control ingreso-clave" type="text" id="ClaveUsuario" placeholder="Ingrese una clave" name="">
 
-        <input class="form-control" type="text" id="txtClaveUsuario" placeholder="Ingrese un clave" name="">
+        <input class="form-control ingreso-clave" type="text" id="ClaveUsuario2" placeholder="Reingrese la clave" name="">
 
-        <input class="form-control" type="text" id="txtEmailUsuario" placeholder="Email" name="">
+        <input class="form-control ingreso-email" type="email" id="EmailUsuario" placeholder="Email" name="">
+
+        
 
         <button type="button" id="btnTest"  class="btn btn-primary">Test</button>
 

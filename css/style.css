@@ -9,3 +9,13 @@
     margin-bottom: 2rem;
 
 }
+
+
+.ingreso-nombre small{
+    visibility: hidden;
+}
+
+.ingreso-nombre.error small{
+    visibility: visible;
+    color: red;
+}
